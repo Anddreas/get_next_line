@@ -24,7 +24,7 @@ static char	*erkrord_mek(char *str, int len, int l)
 	while (str[l] != '\0')
 	{
 		p[i] = str[l];
-		i++;
+		i+=1;
 		l++;
 	}
 	p[i] = '\0';
