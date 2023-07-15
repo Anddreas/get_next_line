@@ -110,7 +110,7 @@ static char	*arajin(char *str)
 
 char	*get_next_line(int fd)
 {
-	char		buffer[BUFFER_SIZE + 10];
+	char		buffer[BUFFER_SIZE + 1000];
 	int			l;
 	static char	*str;
 	char		*p;
